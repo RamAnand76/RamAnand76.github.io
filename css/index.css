@@ -544,8 +544,10 @@ body{
 .experience {
     padding: 15px;
     margin: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
     margin-bottom: 50px;
-    max-width: 800px; /* Adjust the max-width as per your preference */
+    max-width:50%; /* Adjust the max-width as per your preference */
   }
   
   .experience .title {
@@ -564,7 +566,7 @@ body{
     font-weight: bold;
     font-size: xx-large;
     text-align: center;
-    color: #f26b27;
+    color: #e88309;
   }
   
   .experience .timeline {
@@ -603,7 +605,7 @@ body{
   
   .experience .timeline-title {
     font-size: 20px;
-    color: #04A777; 
+    color: #fefefe;
     font-weight: bold;
     font-family: raleway;
     margin-top: 20px;
