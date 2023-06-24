@@ -153,12 +153,43 @@
             </div>
             </div>
             <!--about picture-->
-            <div class="about-img">
+            <!--<div class="about-img">
                 <img src="images/about-image.jpg" alt="Your Image">
+            </div>-->
+
+            </div>
+
+            <!--education-part-->
+            <div id="education-content">
+                <div class="education-header">
+                    EDUCATION and <span class="color">ACHIEVEMENTS</span>
+                    <span class="header-caption"><b>My Academic <span class="color">Journey.</b></span></span>
+                </div>
+                <div class="education-main">
+                    <div class="education-description wow">
+                        <!--education description-->
+                        <span class="education-degree">
+                            <span class="color">Bachelor of Technology (B.Tech) in Computer Science</span>
+                        </span>
+                        <br>
+                        <span class="education-details">
+                            I am currently pursuing my B.Tech degree in Computer Science and Engineering from the <b>University College of Engineering Thodupuzha</b>. I am in my third year of studies and have maintained a CGPA of 8.22. Throughout my academic journey, I have gained a solid foundation in computer science principles and technologies, including programming, algorithms, data structures, and more.
+                            
+                            <BR><BR>
+                            <h1>ACHIEVEMENTS</h1>
+                            <ul>
+                                <li>Conducted and coordinated a CTF competition at College Level.</li>
+                                <li>Participated in a National Level CTF and  achieved SECOND position.</li>
+                                
+                                <!--<li>Conducted a research project on neural networks and presented findings at a national conference.</li>-->
+                            </ul>
+                        </span>
+                    </div>
+                </div>
             </div>
             </div>
-    
-            </div>
+            <!--education-part-ends-->
+
             <!--services start-->
             <div id="services">
                 <div class="color-changer">
@@ -512,21 +543,21 @@
         <div class="contact-header-caption"> <span class="color"> Get</span> In Touch.</div></div>
         <div class="contact-content">
             <!--Contact form-->
-             <!--<div class="contact-form">
-                 <div class="form-header">
-                     Message Me
-                 </div>
-                 <form id="myForm" action="#">
+            <div class="contact-form">
+                <div class="form-header">
+                    Message Me
+                </div>
+                <form id="myForm" action="https://formspree.io/f/mleyrdnw" method="POST">
                     <div class="input-line">
-                        <input  id="name" type="text" placeholder="Name" class="input-name">
-                        <input id="email" type="email" placeholder="Email"  class="input-name">
+                        <input id="name" type="text" name="name" placeholder="Name" class="input-name" required>
+                        <input id="email" type="email" name="_replyto" placeholder="Email" class="input-name" required>
                     </div>
-                    <input type="text" id="subject" placeholder="subject" class="input-subject">
-                    <textarea id ="body" class="input-textarea" placeholder="message"></textarea>
-                    <button type="button" id ="submit" value="send">Submit</button>
-                 </form>
-               
-             </div>-->
+                    <input type="text" id="subject" name="_subject" placeholder="Subject" class="input-subject" required>
+                    <textarea id="body" name="message" class="input-textarea" placeholder="Message" required></textarea>
+                    <button type="submit" id="submit">Submit</button>
+                </form>
+            </div>
+            
             <!--Contact form-->
             <!--Contact information-->
              <div class="contact-info">
